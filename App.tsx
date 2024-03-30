@@ -5,9 +5,15 @@ import { SafeAreaView } from 'react-native';
 import { PaperProvider } from 'react-native-paper';
 import { CounterM3Screen } from './src/presentation/screens/CounterM3Screen';
 
+import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
+
 export const App = () => {
 	return (
-		<PaperProvider>
+		<PaperProvider
+			settings={{
+				icon: props => <MaterialIcon {...props} />,
+			}}
+		>
 			<SafeAreaView style={{ flex: 1 }}>
 				{/* <HelloWorldScreen name="Erick Smash" /> */}
 				{/* <CounterScreen /> */}
