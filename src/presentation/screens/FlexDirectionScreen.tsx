@@ -21,7 +21,7 @@ const Styles = StyleSheet.create({
 	},
 	box: {
 		// flex: 1,
-		width: '100%',
+		width: 100,
 		height: 100,
 	},
 	box1: {
@@ -29,8 +29,12 @@ const Styles = StyleSheet.create({
 	},
 	box2: {
 		backgroundColor: '#4861cf',
+		alignSelf: 'flex-end',
+		position: 'absolute',
+		right: 0,
 	},
 	box3: {
 		backgroundColor: '#48cf9b',
+		alignSelf: 'center',
 	},
 });
