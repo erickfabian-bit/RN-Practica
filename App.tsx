@@ -8,7 +8,8 @@ import { PaperProvider } from 'react-native-paper';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 // import { BoxObjectModelScreen } from './src/presentation/screens/BoxObjectModelScreen';
 // import { DimensionScreen } from './src/presentation/screens/DimensionScreen';
-import { PositionScreen } from './src/presentation/screens/PositionScreen';
+// import { PositionScreen } from './src/presentation/screens/PositionScreen';
+import { FlexScreen } from './src/presentation/screens/FlexScreen';
 
 export const App = () => {
 	return (
@@ -23,7 +24,8 @@ export const App = () => {
 				{/* <CounterM3Screen /> */}
 				{/* <BoxObjectModelScreen /> */}
 				{/* <DimensionScreen /> */}
-				<PositionScreen />
+				{/* <PositionScreen /> */}
+				<FlexScreen />
 			</SafeAreaView>
 		</PaperProvider>
 	);
